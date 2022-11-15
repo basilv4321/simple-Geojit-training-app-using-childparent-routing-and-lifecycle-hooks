@@ -1,0 +1,86 @@
+<div class="container-fluid">
+    <div class="col-12">
+
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" class="a1"><i class="fa-solid fa-3x fa-sack-dollar"></i></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
+
+          <main>
+            <div class="log">
+               <div class="card logcard">
+                <form action="" (ngSubmit)="register()" [formGroup]="registrationForm">
+                    
+                    <div class="logpad">
+                        <span class="p-float-label">
+                            <input id="float-input" class="form-control reginp" formControlName="firstname" type="text" pInputText > 
+                            <label for="float-input" style="color: teal;">first name</label>
+                        </span>
+                        </div>
+                        <div class="logpad">
+                        <span class="p-float-label">
+                            <input id="float-input" class="form-control reginp" formControlName="lastname"  type="text" pInputText  > 
+                            <label for="float-input" style="color: teal;">lastname</label>
+                        </span>
+                        </div>
+                        <div class="logpad">
+                            <span class="p-float-label">
+                            <input id="float-input" class="form-control reginp" formControlName="email"  type="text" pInputText  > 
+                            <label for="float-input" style="color: teal;">email</label>
+                            </span>
+                        </div>
+                        <div class="logpad">
+                                <span class="p-float-label">
+                                <input id="float-input" class="form-control reginp" formControlName="phno"  type="text" pInputText  > 
+                                <label for="float-input" style="color: teal;">phone number</label>
+                                </span>
+                        </div>
+                        <div class="logpad">
+                            <span class="p-float-label">
+                            <input id="float-input" class="form-control reginp" formControlName="panno"  type="text" pInputText  > 
+                            <label for="float-input" style="color: teal;">pan number</label>
+                            </span>
+                        </div>
+                        <div class="logpad">
+                            <span class="p-float-label">
+                            <input id="float-input" class="form-control reginp" formControlName="username"  type="text" pInputText  > 
+                            <label for="float-input" style="color: teal;">username</label>
+                            </span>
+                        </div>
+                        <div class="logpad">
+                            <span class="p-float-label">
+                            <input id="float-input" class="form-control reginp" formControlName="password"  type="password" pInputText  > 
+                            <label for="float-input" style="color: teal;">password</label>
+                            </span>
+                        </div>
+                        <div class="logpad">
+                            <input type="checkbox" placeholder="agreement" id="id_terms" (click)="terms()"  class="" name="agreement">
+                                &nbsp;&nbsp;
+                                <span class="">
+                                <label for="id_terms" class=""> i agree
+                                    <a href="/#" style="text-decoration: none;">terms & conditions</a>
+                                </label>
+                                </span>
+                        </div>
+                        
+                        <div class="logbtn">
+                            <button class="btn logbtn1">REGISTER</button>
+                        </div>
+                    
+                </form>
+                <div class="text-center">
+                    registered? <a class="sgnbtn" type="button" (click)="routingToLoginPage()">Signin</a>
+                </div>
+                
+                </div> 
+
+            </div>
+            
+          </main>
+
+    </div>
+</div>

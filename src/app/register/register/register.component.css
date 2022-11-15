@@ -1,0 +1,62 @@
+.a1{
+    color: teal;
+    padding-left: 30px;
+}
+.log{
+    align-items: center;
+}
+.logcard{
+    height: 22rem;
+    width: 36rem;
+    background-color: white;
+    border: teal;
+    margin-top: 0%;
+    margin-left: 31%;
+
+}
+.logpad{
+    padding-inline: 14%;
+    padding-top: 3%;
+    display: inline-block;
+}
+.logpad1{
+    display: inline-block;
+}
+.captchabox{
+    height: 2rem;
+    width: 6rem;
+    margin-left: 14%;
+    margin-top: 5%;
+    border: teal;
+    display: inline-block;
+    
+}
+.logbtn{
+    padding-left: 80px;
+    padding-top: 3%;
+
+}
+.logbtn1{
+    background-color: teal;
+    padding-inline: 37%;
+    color: white;
+    font-weight: bold;
+
+}
+.captchabox1{
+    padding-top: 0rem;
+    display: inline-block;
+    padding-left: 2rem;
+}
+.sgnbtn{
+    color: teal;
+    text-decoration: none;
+}
+.sgnbtn:hover{
+    text-decoration: underline;
+}
+
+.reginp{
+    height: 46px;
+    width: 204%;
+}
